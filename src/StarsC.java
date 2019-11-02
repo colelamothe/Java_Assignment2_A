@@ -16,7 +16,7 @@ public class StarsC {
             }
 
             // Print formatting
-            System.out.printf("%-10s", starString); // right justifies the string by setting a field width of 10
+            System.out.printf("%10s", starString); // right justifies the string by setting a field width of 10
 
             // reset row for next iteration
             starString = "";
